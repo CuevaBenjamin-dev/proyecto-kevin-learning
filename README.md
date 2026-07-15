@@ -19,3 +19,4 @@ SEO, seguridad, testing y despliegue.
 
 ```bash
 npm run doctor
+```
