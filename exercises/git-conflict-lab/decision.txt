@@ -1,3 +1,4 @@
 Proyecto: Kevin
-Decisión: conservar documentación local
-Estado: revisado por left
+Decisión local: conservar documentación local
+Decisión remota: conservar automatización remota
+Estado: conflicto resuelto conservando ambas intenciones
