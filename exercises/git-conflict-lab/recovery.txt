@@ -1,2 +1,1 @@
 Este archivo existe para practicar recuperación segura.
-Configuración: usar credenciales dentro del repositorio
