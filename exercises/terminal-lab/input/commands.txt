@@ -1,0 +1,4 @@
+pwd
+ls
+git status
+npm run doctor
