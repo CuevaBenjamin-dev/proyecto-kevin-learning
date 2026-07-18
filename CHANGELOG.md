@@ -1,35 +1,45 @@
 # Changelog
 
-Este archivo registra cambios relevantes del repositorio de aprendizaje.
+Este archivo registra los cambios relevantes de cada versión del proyecto.
 
-## [0.1.0] - 2026-07-16
+El formato se organiza en las siguientes categorías:
+
+- `Added`: funcionalidades nuevas.
+- `Changed`: comportamientos modificados.
+- `Fixed`: errores corregidos.
+- `Removed`: funcionalidades eliminadas.
+- `Security`: correcciones relacionadas con seguridad.
+
+## [Unreleased]
 
 ### Added
 
-- Entorno reproducible con Node.js 24 LTS.
-- Archivo `.nvmrc`.
-- Script `npm run doctor`.
-- Estructura para notas, ejercicios, miniproyectos y Proyecto Kevin.
-- Laboratorio de terminal, rutas, pipes y redirecciones.
-- Flujo con ramas, Pull Requests y merge.
-- Laboratorio de conflictos, recuperación y `git revert`.
-- Laboratorio aislado de auditoría de dependencias.
-- Guía de contribución.
-- Plantilla de Pull Request.
-- Issue Form para tareas de aprendizaje.
-- ADR del entorno y tooling base.
+- Cambios nuevos que todavía no han sido publicados.
 
 ### Changed
 
-- Versión inicial del proyecto alineada a `0.1.0`.
-- README actualizado con instrucciones reproducibles.
+- Modificaciones pendientes de una próxima versión.
 
 ### Fixed
 
-- Cierre del bloque Markdown del comando `npm run doctor`.
+- Errores corregidos que todavía no pertenecen a una release.
+
+## [0.1.0] - 2026-07-18
+
+### Added
+
+- Estructura inicial del proyecto.
+- Configuración del entorno de desarrollo.
+- Documentación principal.
+
+### Changed
+
+- No aplica.
+
+### Fixed
+
+- No aplica.
 
 ### Security
 
-- Dependencia vulnerable de laboratorio identificada y actualizada antes
-  de ser confirmada en Git.
-- Secretos y archivos `.env` excluidos mediante `.gitignore`.
+- Archivos sensibles excluidos mediante `.gitignore`.
