@@ -1,0 +1,52 @@
+name: Tarea de aprendizaje
+description: Registrar una práctica, investigación o entrega del roadmap
+title: "[Learning]: "
+body:
+  - type: input
+    id: objective
+    attributes:
+      label: Objetivo
+      description: ¿Qué capacidad debe adquirirse o demostrarse?
+      placeholder: Comprender y demostrar...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Motivación
+      description: ¿Por qué es importante aprenderlo?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Escribe resultados observables y verificables.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia esperada
+      description: Comandos, archivos, pruebas o explicación necesarios.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Etapa
+      options:
+        - Etapa 0
+        - Etapa 1
+        - Etapa 2
+        - Etapa 3
+        - Etapa posterior
+    validations:
+      required: true

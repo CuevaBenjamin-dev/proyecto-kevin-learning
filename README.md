@@ -20,3 +20,15 @@ SEO, seguridad, testing y despliegue.
 ```bash
 npm run doctor
 ```
+
+## Documentación
+
+- [Guía de contribución](CONTRIBUTING.md)
+- [ADR-0001: entorno y tooling](docs/adr/ADR-0001-entorno-y-stack-base.md)
+- [Flujo Git aprendido](notes/stage-0-git-flow.md)
+- [Changelog](CHANGELOG.md)
+
+## Progreso
+
+- [x] Etapa 0: entorno profesional, terminal y Git.
+- [ ] Etapa 1: HTML semántico y accesibilidad.
